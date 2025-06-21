@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Sample a Simple DDD (Domain Driven Design) for CRUD implentation", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Web API Backend for A Simple HRIS Web System", Version = "v1" });
 });
 
 // Add application services (Service Extension)
